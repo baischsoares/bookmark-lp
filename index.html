@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Bookmark landing page</title>
+  <script>
+    document.documentElement.className += ' js'
+  </script>
+</head>
+
+<body>
+  <header class="container pb-120">
+    <div>
+      <img src="./images/logo-bookmark.svg" alt="logo">
+    </div>
+    <nav class="navegacao">
+      <button class="hamburguer"><img src="./images/icon-hamburger.svg" alt=""></button>
+
+
+      <ul class="navegacao-lista">
+        <li><a href="">Features</a></li>
+        <li><a href="">Pricing</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a class="nav-btn" href="">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container pb-120">
+    <div class="banner-texto">
+      <h1 class="fonte-titulo margem-interna">A Simple Bookmark <br>Manager</h1>
+      <p class=" margem-interna fonte-p">A clean and simple interface to organize your favourite websites. Open a new
+        browser tab and see your sites load instantly. Try it for free.</p>
+      <ul class="lista-botao">
+        <li><a class="botao" href="">Get it on Chorme</a></li>
+        <li><a class="botao-secundario" href="">Get it on Firefox</a></li>
+      </ul>
+    </div>
+    <div class="img-banner">
+      <img src="./images/illustration-hero.svg" alt="">
+    </div>
+  </main>
+
+  <section class="container pb-120">
+    <div class="features-conteudo container-texto pb-60">
+      <h2 class="margem-interna fonte-h2">Features</h2>
+      <p class="fonte-p">Our aim is to make it quick and easy for you to access your favourite websites.
+        Your bookmarks sync between your devices so you can access them on the go.</p>
+    </div>
+
+    <div class="tab">
+      <ul class="lista-tab js-lista-tab">
+        <li><a class="ativo" href="">Simple Bookmaking</a></li>
+        <li><a href="">Speedy Searching</a></li>
+        <li><a href="">Easy Sharing</a></li>
+      </ul>
+    </div>
+    <section class="container tabs js-tabs">
+      <div class="tab-content">
+        <div class="tab-img">
+          <img src="./images/illustration-features-tab-1.svg" alt="">
+        </div>
+        <div class="tab-texto">
+          <h2 class="fonte-h2 margem-interna"> Bookmark in one click</h2>
+          <p class="fonte-p margem-interna"> Organize your bookmarks however you like. Our simple drag-and-drop
+            interface
+            gives you complete control over how you manage your favourite sites.</p>
+          <a class="botao" href="">More info</a>
+        </div>
+      </div>
+
+      <div class="tab-content pb-120">
+        <div class="tab-img">
+          <img src="./images/illustration-features-tab-2.svg" alt="">
+        </div>
+        <div class="tab-texto">
+          <h2 class="fonte-h2 margem-interna">
+            Intelligent search</h2>
+          <p class="fonte-p margem-interna"> Our powerful search feature will help you find saved sites in no time at
+            all.
+            No need to trawl through all of your bookmarks.
+          </p>
+          <a class="botao" href="">More info</a>
+        </div>
+      </div>
+      <div class="tab-content">
+        <div class="tab-img">
+          <img src="./images/illustration-features-tab-3.svg" alt="">
+        </div>
+        <div class="tab-texto">
+          <h2 class="fonte-h2 margem-interna"> Share your bookmarks</h2>
+          <p class="fonte-p margem-interna"> Easily share your bookmarks and collections with others. Create a shareable
+            link that you can send at the click of a button.</p>
+          <a class="botao" href="">More info</a>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section class="container pb-120">
+    <div class="download-conteudo container-texto pb-60">
+      <h2 class="margem-interna fonte-h2"> Download the extension</h2>
+      <p class="fonte-p">
+        We’ve got more browsers in the pipeline. Please do let us know if you’ve
+        got a favourite you’d like us to prioritize.</p>
+    </div>
+    <div class="download-section">
+      <ul class="download-lista">
+        <li class="download-card">
+          <img src="./images/logo-firefox.svg" alt="">
+          <h3 class="fonte-h3">Add to Firefox</h3>
+          <p class="fonte-p">Minimum version 55</p>
+          <a class="botao" href="">Add & Install Extension</a>
+        </li>
+        <li class="download-card">
+          <img src="./images/logo-Opera.svg" alt="">
+          <h3 class="fonte-h3">Add to Opera</h3>
+          <p class="fonte-p">Minimum version 46</p>
+          <a class="botao" href="">Add & Install Extension</a>
+        </li>
+        <li class="download-card">
+          <img src="./images/logo-chrome.svg" alt="">
+          <h3 class="fonte-h3">Add to Chrome</h3>
+          <p class="fonte-p">Minimum version 62</p>
+          <a class="botao" href="">Add & Install Extension</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="faq-section container-texto pb-120">
+    <div class="faq-texto container-texto pb-60">
+      <h2 class="margem-interna fonte-h2"> Frequently Asked Questions</h2>
+      <p class="fonte-p">
+        Here are some of our FAQs. If you have any other questions you’d like
+        answered please feel free to email us.</p>
+    </div>
+    <dl class="faq margem-interna js-accordion">
+      <dt> What is Bookmark?</dt>
+      <dd class="fonte-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt
+        justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</dd>
+
+      <dt> How can I request a new browser?</dt>
+      <dd class="fonte-p"> Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula.
+        Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+        ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies.
+        Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+      </dd>
+
+      <dt> Is there a mobile app?</dt>
+      <dd class="fonte-p">Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut
+        condimentum
+        urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed
+        sollicitudin ex et ultricies bibendum.</dd>
+
+      <dt> What about other Chromium browsers?</dt>
+      <dd class="fonte-p"> Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui.
+        Aliquam
+        vitae neque eget nisl gravida pellentesque non ut velit.</dd>
+    </dl>
+    <a class="botao" href="">More Info</a>
+  </section>
+
+  <section class="contato">
+    <div class="container">
+      <p>35,000+ already joined</p>
+      <h2 class="fonte-h2">Stay up-to-date with what <br>we’re doing</h2>
+      <form action="">
+        <input type="email" name="email" id="email" class="email" placeholder="email@example.com.br">
+        <button class="nav-btn botao-contato">Contact Us</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <section class="footer-grid container">
+      <div class="nav-footer">
+        <div>
+          <img src="./images/logo-rodape.svg" alt="">
+        </div>
+        <nav>
+          <ul class="nav-footer-lista">
+            <li><a href="">Features</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div>
+        <ul class="redes-footer">
+          <li><a href=""><img src="./images/icon-facebook.svg" alt=""></a></li>
+          <li><a href=""><img src="./images/icon-twitter.svg" alt=""></a></li>
+        </ul>
+      </div>
+    </section>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+
+</html>
