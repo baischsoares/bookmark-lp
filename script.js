@@ -58,3 +58,17 @@ function accordionLista(){
   }
 }
 accordionLista()
+
+
+const btnContato = document.querySelector('.botao-contato');
+let email = document.querySelector('.email')
+btnContato.addEventListener('click', enviarForm)
+
+function enviarForm(event){
+  event.preventDefault()
+  if(!email.value){
+    email.setAttribute('placeholder', 'O e-mail é obrigatório')
+    email.classList.toggle('emailVazio')
+  }
+}
+email.addEventListener('keyup', function() {this.classList.remove('emailVazio')})

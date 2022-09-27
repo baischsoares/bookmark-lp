@@ -369,6 +369,7 @@ dd{
 }
 
 /*Contato*/
+
 .contato{
   padding: 120px 0px;
   text-align: center;
@@ -389,8 +390,9 @@ dd{
   margin-right: 10px;
   margin-bottom: 20px;
   border-radius: 5px;
-  border: none;
   padding-left: 10px;
+  box-sizing: border-box;
+  border: transparent;
 }
 .contato form button {
   height: 40px;
@@ -402,7 +404,9 @@ dd{
   cursor: pointer;
   
 }
-
+.contato form input.emailVazio{
+  border: 1px solid red;
+}
 
 
 /*FOOTER*/
