@@ -1,15 +1,17 @@
 # Bookmark Page
 
 
-## O desagio
+## O desafio
 
-O desafio foi construir uma landing page com HTML e CSS.
+O desafio foi construir uma landing page com HTML, CSS e JavaScript.
 
 Ao final, os usuários podem:
 
 - Ver o layout em diferentes telas
 
 - Ver os estados de hover para todos os elementos interativos
+
+- Ver o menu hamburguer em telas menores
 
 - Navegar pela lista de FAQ e de Features
 
